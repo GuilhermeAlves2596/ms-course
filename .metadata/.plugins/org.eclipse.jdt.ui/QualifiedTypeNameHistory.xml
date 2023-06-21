@@ -15,7 +15,6 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
-    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="org.springframework.web.client.RestTemplate"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
@@ -29,4 +28,15 @@
     <fullyQualifiedTypeName name="org.hibernate.annotations.common.util.impl.LoggerFactory"/>
     <fullyQualifiedTypeName name="org.slf4j.Logger"/>
     <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker"/>
+    <fullyQualifiedTypeName name="com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.zuul.EnableZuulProxy"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.EnableEurekaClient"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.config.server.EnableConfigServer"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.context.config.annotation.RefreshScope"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
 </qualifiedTypeNameHistroy>
