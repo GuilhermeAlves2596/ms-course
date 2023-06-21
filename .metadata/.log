@@ -2308,3 +2308,9 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-zuul:ja
 !MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:javadoc:2.2.5.RELEASE
 !SUBENTRY 2 org.eclipse.m2e.core 4 0 2023-06-21 11:33:20.682
 !MESSAGE Missing org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:javadoc:2.2.5.RELEASE
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 14:35:33.425
+!MESSAGE Classpath changed for project: hr-config-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 14:35:33.425
+!MESSAGE Boot project ADDED: hr-config-server
