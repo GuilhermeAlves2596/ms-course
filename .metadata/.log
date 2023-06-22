@@ -3763,3 +3763,9 @@ java.lang.IllegalArgumentException: release 17 is not found in the system
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-22 14:33:53.168
 !MESSAGE Classpath changed for project: hr-oauth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-22 14:38:57.557
+!MESSAGE Classpath changed for project: hr-oauth
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-22 14:39:00.046
+!MESSAGE Classpath changed for project: hr-oauth
