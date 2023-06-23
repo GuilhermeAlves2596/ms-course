@@ -1,6 +1,7 @@
 package com.alves.hroauth.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -16,6 +17,12 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 @EnableAuthorizationServer
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
 
+	@Value("{oauth.client.name}") // Le o arquivo no git-hub, porem não esta autorizando
+	private String clientName;	  // O correto seria passar essa variavel no "myappname123"
+	
+	@Value("{oauth.client.secret}") // Le o arquivo no git-hub, porem não esta autorizando
+	private String clientSecret;	// // O correto seria passar essa variavel no "myappsecret123"
+	
 	@Autowired
 	private BCryptPasswordEncoder passwordEncoder;
 	
