@@ -4843,3 +4843,12 @@ java.util.concurrent.TimeoutException
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-26 11:17:10.700
+!MESSAGE Classpath changed for project: hr-worker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-26 11:17:10.771
+!MESSAGE Classpath changed for project: hr-worker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-26 11:17:12.338
+!MESSAGE Classpath changed for project: hr-worker
